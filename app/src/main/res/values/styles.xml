@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="secret_key_text_style" parent="WrapWrap">
+        <item name="android:text"></item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@mipmap/ic_launcher</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/space_25</item>
+        <item name="android:padding">@dimen/normal_10</item>
+    </style>
+
+</resources>
